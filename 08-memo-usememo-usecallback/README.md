@@ -18,6 +18,8 @@ const Student = ({ name, age, address }) => {
         </diev>
     )
 }
+
+export default memo(Student)
 ```
 - Prop Check > (name, age, address) 변화가 있을 경우 렌더링
 - Prop Check > (name, age, address) 변화가 없을 경우 재사용
